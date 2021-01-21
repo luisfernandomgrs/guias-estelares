@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascata</title>
+    <style>
+        h1 {
+            color: red;
+        }
+        /* No conceito de cascata, vemos que declaraçõe para o mesmo elemento serão somadas
+        e se houver uma repetição de propriedades, irá prevalecer a última declaração mais
+        abaixo na cascata */
+        h1 {
+            color: brown;
+            font-size: 8rem;
+        }
+        p {
+            font-size: 12rem;
+        }
+        p {
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- tag inline -->
+    <h1 style="color: aqua;">Título</h1>
+
+    <p>Parágrafo</p>
+    <p>Em uma cascata, o sentido de prioridade é:</p>
+
+    <!-- tag inline -->
+    <p style="font-size: 2rem;">inline > tag style > tag link</p>
+
+    <style>
+        h1 {
+            color:blue;
+        }
+    </style>
+</body>
+</html>

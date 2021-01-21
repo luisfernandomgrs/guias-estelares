@@ -1,0 +1,15 @@
+/*
+ Esta é uma forma de importar fonts, porém não é recomenda por trazer lentidão devido o tempo necessário para este processo 
+ A melhor maneira, é através do uso de Link diretamente no html.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+h1 {
+    color: chocolate;
+    font-family: 'Ranchers', cursive;
+    font-size: 12rem;
+}
+
+strong {
+    color: blue;
+}

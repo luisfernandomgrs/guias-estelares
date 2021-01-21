@@ -1,0 +1,25 @@
+/* Um Type Selector geral para toda a página */
+* {
+    margin: 0;
+}
+
+/* body, h1 é definido como um Element/Type Selector */
+body {
+    background: url('https://images.unsplash.com/photo-1610655763739-7e479b7f2864?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80');
+}
+
+#container {
+    width: 500px;
+}
+
+.m-40 {
+    margin: 40px;
+}
+
+/* o bloco definido entre as chaves, é definido como Declaration */
+h1 {
+    /* color, font-size são exemplos de Properties */
+    color:#FFF;
+    /* o valor atribuido a font-size é definido como Propertie-Value */
+    font-size: 100px;
+}
